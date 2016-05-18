@@ -21,7 +21,8 @@
     "psr-4": {
       "ChatBot\\": "",
       "ChatBot\\Messages\\": "",
-      "ChatBot\\Profile\\": ""
+      "ChatBot\\Profile\\": "",
+      "ChatBot\\Clients\\": ""
     }
   }
 }
