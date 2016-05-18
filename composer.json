@@ -1,0 +1,27 @@
+{
+  "name": "pimax/chat-bots-cross-platform-php",
+  "description": "ChatBots Cross Platform PHP Framework",
+  "homepage": "https://github.com/pimax/chat-bots-cross-platform-php",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Max Pinyugin",
+      "email": "m.pinyugin@gmail.com",
+      "homepage": "http://russian-developers.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "irazasyed/telegram-bot-sdk": "^2.0",
+    "pimax/fb-messenger-php": "dev-master"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "ChatBot\\": "",
+      "ChatBot\\Messages\\": "",
+      "ChatBot\\Profile\\": ""
+    }
+  }
+}
